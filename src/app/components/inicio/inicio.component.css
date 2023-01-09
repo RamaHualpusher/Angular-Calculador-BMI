@@ -1,0 +1,56 @@
+.fondoItem{
+    background-color: #ff111328;
+    height: 130px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+
+}
+.sexo{
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 10px;
+    height: 100%;
+    width: 100%;
+}
+.textoSexo{
+    font-size: 20px;
+}
+.sexoDisabled{
+    background-color: #36363633;
+    border-radius: 20px;
+}
+.sexoSeleccionado{
+    background-color: #ff3366;
+    border-radius: 20px;
+}
+.estiloNumero{
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: -30px;
+    height: 100%;
+    width: 100%;
+}
+.cm{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -30px;
+    height: 100%;
+    width: 100%;
+}
+.custom-range{
+    width: 90%;
+    margin: 0 20px 20px 20px;
+}
+input[type=range]::-webkit-slider-thumb {
+    background: #ff3366;
+}
+.sumaResta{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ff4c4f5e;
+    padding: 7px;
+    border-radius: 50%;
+    margin: 0 2px;
+}
